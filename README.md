@@ -2,11 +2,11 @@
 
 Este repositório foi criado para demonstrar a aplicação prática do **Polimorfismo de Sobrescrita (Dinâmico)** em Java, utilizando uma árvore de herança baseada no Reino Animal.
 
-## 🎯 O que é Polimorfismo de Sobrescrita?
+##  O que é Polimorfismo de Sobrescrita?
 
 Ocorre quando uma subclasse substitui (redefine) um método herdado de uma superclasse. Para caracterizar a sobrescrita, o método na classe filha deve possuir **exatamente a mesma assinatura** (mesmo nome, mesma quantidade e tipos de parâmetros) do método da classe pai.
 
-## 🚀 Conceitos Aplicados no Projeto
+##  Conceitos Aplicados no Projeto
 
 * **Classe Abstrata (`Animal`)**: Atua como a superclasse progenitora, definindo atributos protegidos (`peso`, `idade`, `membros`) e assinando as ações abstratas que todo animal é obrigado a fazer, mas sem ditar o *como*.
 * **Anotação `@Override**`: Utilizada explicitamente nas subclasses para indicar ao compilador que os métodos herdados estão sendo intencionalmente redefinidos.
